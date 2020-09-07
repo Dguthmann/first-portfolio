@@ -28,6 +28,7 @@ footer {
 
 
 .navbar-brand{
+    padding: 0.5%;
     background-color: green   
 }
 
@@ -35,7 +36,7 @@ footer {
     background-color: black;
     color: white;
     width: 60vw;
-    padding: 2% 2% 2% 2%;
+    padding: 2%;
     margin: 5% 38% 5% 2%;
 }
 
@@ -48,16 +49,13 @@ footer {
 .content{
     float: none;
     width: 100%;
-    margin: 5% 0;
 }
 
 @media screen and (max-width:700px){
 
     .container{
         width: 90vw;
-        margin: 5vw auto;
+        margin: 5vw;
     }
-
-
 
 }
