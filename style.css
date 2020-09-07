@@ -18,9 +18,14 @@ img:hover{
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
     border-top: 1vw solid green;
-    background-color: white;   
-    padding: 2vw;
+    background-color: white;
+    border-bottom: 1vw solid white;   
+    padding: 1vw 1vw 1vw 1vw;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
