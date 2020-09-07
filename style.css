@@ -1,5 +1,6 @@
 body{
-    background:grey;
+    background: url("https://image.freepik.com/free-photo/cheese-assortment-with-copy-space_23-2148432599.jpg");
+    background-size: cover;
 }
 
 
@@ -8,13 +9,45 @@ hr{
     border-color: red;
 }
 
+img{
+    filter: grayscale();
+}
+
+img:hover{
+    filter:none;
+}
+
 footer {
-    padding: 30px;
+    border-top: 1vw solid green;
+    background-color: white;   
+    padding: 2vw;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
+
 .navbar-brand{
     background-color: green   
+}
+
+.container{
+    background-color: black;
+    color: white;
+    width: 60vw;
+    margin: 5vw 38vw 5vw 2vw;
+}
+
+.section-header{
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+}
+
+@media screen and (max-width:700px){
+
+    .container{
+        width: 90vw;
+        margin: 5vw 5vw 5vw 5vw;
+    }
+
 }
