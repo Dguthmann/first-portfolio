@@ -35,19 +35,29 @@ footer {
     background-color: black;
     color: white;
     width: 60vw;
-    margin: 5vw 38vw 5vw 2vw;
+    padding: 2% 2% 2% 2%;
+    margin: 5% 38% 5% 2%;
 }
+
 
 .section-header{
     font-family: 'Times New Roman', Times, serif;
     color: gold;
 }
 
+.content{
+    float: none;
+    width: 100%;
+    margin: 5% 0;
+}
+
 @media screen and (max-width:700px){
 
     .container{
         width: 90vw;
-        margin: 5vw 5vw 5vw 5vw;
+        margin: 5vw auto;
     }
+
+
 
 }
