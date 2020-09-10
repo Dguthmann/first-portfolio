@@ -1,15 +1,18 @@
+/* Apply basic background image to all sites */
+
 body{
     position: relative;
     background: url("https://image.freepik.com/free-photo/cheese-assortment-with-copy-space_23-2148432599.jpg");
     background-size: cover;
 }
 
-
+/* content block red line */
 
 hr{
     border-color: red;
 }
 
+/* adding on hover effect to change to coloured when hovered */
 img{
     filter: grayscale();
 }
@@ -17,6 +20,8 @@ img{
 img:hover{
     filter:none;
 }
+
+/* footer setting to bind it to bot of page, and some formatting */
 
 footer {
     height: 5%;
@@ -56,6 +61,8 @@ footer {
     float: none;
     width: 100%;
 }
+
+/* scaling to allow for better mobile look*/
 
 @media screen and (max-width:700px){
 
